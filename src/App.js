@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import TestingPatternMatching from './compoents/TestingPatternMatching';
-import ImageUploader from './compoents/ImageUploader';
-import BoundingPattern from './compoents/BoundingPattern';
+// import TestingPatternMatching from './compoents/TestingPatternMatching';
+// import ImageUploader from './compoents/ImageUploader';
+import BoundingPattern from './components/BoundingPattern';
 
 function App() {
   return (
