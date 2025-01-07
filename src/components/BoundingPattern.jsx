@@ -277,7 +277,7 @@ const QSNoScanner = () => {
       }
 
       const stream = await navigator.mediaDevices.getUserMedia({
-        video: { facingMode: "user" },
+        video: { facingMode: "environment" },
       });
       streamRef.current = stream;
       if (videoRef.current) {
